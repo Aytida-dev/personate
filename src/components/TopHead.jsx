@@ -30,6 +30,9 @@ export default function TopHead() {
             fontSize={"20px"}
             fontWeight={"400"}
             fontStyle={"inherit"}
+            _hover={{
+              bg: "red.500",
+            }}
           >
             Get Started
           </Button>

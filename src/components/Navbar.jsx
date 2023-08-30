@@ -81,7 +81,14 @@ export default function WithSubnavigation() {
             <FaRegUserCircle />
           </Box>
           <Box display={{ base: "none", xl: "block" }}>Log in</Box>
-          <Button bg={"black"} color={"white"} width={"110px"}>
+          <Button
+            bg={"black"}
+            color={"white"}
+            width={"110px"}
+            _hover={{
+              bg: "red.500",
+            }}
+          >
             Get Started
           </Button>
           <Flex
